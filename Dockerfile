@@ -1,4 +1,4 @@
-# Dockerfile: hombre-pgadmin4
+# Dockerfile: hombre-pgadmin
 
 FROM hombrelab/hombre-python
 
@@ -27,7 +27,7 @@ RUN apk add --no-cache \
     postgresql-dev \
     libffi-dev
 
-ENV PGADMIN_VERSION=4.20
+ENV PGADMIN_VERSION=4.29
 ENV PYTHONDONTWRITEBYTECODE=1
 
 RUN apk add --no-cache \
